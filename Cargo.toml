@@ -1,0 +1,17 @@
+[package]
+name = "parser-json-struct"
+version = "0.1.0"
+authors = ["izul <izuleon001>"]
+edition = "2018"
+homepage = ""
+description = "A short description of my package"
+documentation = ""
+repository = "https://github.com/izuleon/parser-json-struct-rust.git"
+readme = "README.md"
+keywords = ["parser", "json", "struct"]
+categories = ["parser"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
