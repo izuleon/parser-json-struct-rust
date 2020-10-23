@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["izul <izuleon001>"]
 edition = "2018"
 homepage = ""
-description = "A short description of my package"
+description = "Create a method to convert general struct into json and vice-versa"
 documentation = ""
 repository = "https://github.com/izuleon/parser-json-struct-rust.git"
 readme = "README.md"
@@ -15,3 +15,5 @@ categories = ["parser"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = {version = "1.0.117", features = ["derive"]}
+serde_json = "1.0.59"
